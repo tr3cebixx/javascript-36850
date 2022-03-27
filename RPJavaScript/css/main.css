@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title{
+    display: block;
+    background-image: radial-gradient(red, white, orange);
+    text-align: center;
+    font-size: 5rem;
+    min-height: 90vh;
+    margin: 5vh;
+}
