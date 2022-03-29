@@ -1,3 +1,9 @@
+function Usuario (user, raza, clase) {
+    this.user = user;
+    this.raza = raza;
+    this.clase = clase;
+}
+
 let user = prompt("Bienvenido a RPJavaScript, defensor del Código. Elige tu nombre (con cuidado, todos lo recordarán!)");
 
 
@@ -22,4 +28,9 @@ if (clase !== "caballero", "bersérker", "paladín", "cazador", "asesino", "Mago
 
 alert('Entonces serás ' + user + ', el más grande ' + clase + ' entre todos los ' + raza + 's.');
 
-
+if (user !== "" && raza !== "" && clase !== "") {
+    const profile1 = new Usuario (user, raza, clase);
+    console.log(profile1.user);
+    console.log(profile1.raza);
+    console.log(profile1.clase);
+}
