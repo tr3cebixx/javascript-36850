@@ -27,8 +27,6 @@ do {
     raza = prompt("Esa no es una raza de este mundo! Elige una raza de verdad:\n Humano\n Orco\n Elfo\n Enano\n Goblin\n Trol\n Demonio");
 } while (raza !== razasPermitidas);
 
-raza.toLowerCase();
-
 alert("Oh, un joven " + raza + ", tienes mucho potencial.");
 console.log("Oh, un joven " + raza + ", tienes mucho potencial.");
 
