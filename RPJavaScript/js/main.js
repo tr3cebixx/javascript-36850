@@ -120,6 +120,7 @@ const profile1 = new UserBase(user, raza, clase);
 for (const data in profile1) {
   console.log(profile1[data]);
 }
+
 console.log(profile1);
 userList.push(profile1);
 console.log(userList);
